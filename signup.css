@@ -1,0 +1,45 @@
+body{
+    background-image:linear-gradient(to top,blue, lightgrey);
+}
+.sign-up{
+    display: flex;
+    justify-content: center; 
+    margin-top: 50px;
+}
+.sign-up-container{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    width: 400px; 
+    color: rgb(17, 16, 16);
+    height: 450px;
+    border-radius: 30px;
+    align-items: center;
+    
+}
+.Sign-up{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.input{
+    height: 40px;
+    border: none; 
+    margin: 15px;
+    border-radius: 1cap; 
+    width: 300px; 
+}
+.sign-up-button{
+    padding: 10px;
+    width: 150px;
+    background-image: linear-gradient(to bottom, rgb(27, 27, 83) , rgb(0, 24, 132));
+    color: aliceblue;
+    font-size: 23px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.sign-up-button:hover{
+    color: black;
+    cursor: pointer;
+    background: rgb(0, 64, 255);
+}
